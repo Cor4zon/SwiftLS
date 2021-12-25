@@ -1,12 +1,15 @@
-//
-//  1.swift
-//  SwiftLS (iOS)
-//
-//  Created by Ольга Федорова on 25.12.2021.
-//
-
 import Foundation
 
-for item in 1..20 where item % 2 {
+for item in 1...20 where ((item % 2) != 0) {
+    break
     print(item)
 }
+
+var i = 10
+
+repeat {
+    print(i)
+    i -= 1
+} while i > 0
+
+
