@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+for item in 1..20 where item % 2 {
+    print(item)
+}
